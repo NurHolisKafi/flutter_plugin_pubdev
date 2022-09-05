@@ -18,11 +18,9 @@ Perbedaannya : Pada Container pertama menggunakan widget AutoSizeText dan yang k
 - key*        :Mengontrol bagaimana satu widget menggantikan widget lain pada sebuah tree.
 - textKey     :Mengatur kunci untuk widget Teks yang dihasilkan
 - style*      :Sebuah style yang digunakan pada teks jika bukan null
-- minFontSize  :Batasan ukuran teks minimum yang akan digunakan saat mengubah ukuran teks secara otomatis.
-- Diabaikan jika presetFontSizes diatur.
+- minFontSize  :Batasan ukuran teks minimum yang akan digunakan saat mengubah ukuran teks secara otomatis. Diabaikan jika presetFontSizes diatur.
 
-- maxFontSize  :Batasan ukuran teks maksimum yang akan digunakan saat mengubah ukuran teks secara otomatis.
-Diabaikan jika presetFontSizes diatur.
+- maxFontSize  :Batasan ukuran teks maksimum yang akan digunakan saat mengubah ukuran teks secara otomatis. Diabaikan jika presetFontSizes diatur.
 
 - stepGranularity :Ukuran langkah di mana ukuran font sedang disesuaikan dengan constraints.
 - presetFontSizes :Mendefinisikan semua ukuran font yang mungkin. presetFontSizes harus dalam urutan menurun
